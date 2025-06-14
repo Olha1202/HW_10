@@ -19,13 +19,18 @@ if(lowerText===computerChoice){
     alert('Нічия');    
 }
 
-else if(lowerText===kamin & computerChoice===nogisi||
-    lowerText===papir & computerChoice===kamin||
-    lowerText===nogisi & computerChoice===papir){
+else if(lowerText===kamin && computerChoice===nogisi||
+    lowerText===papir && computerChoice===kamin||
+    lowerText===nogisi && computerChoice===papir){
 alert('Виграш');}
+
+else if(lowerText!==kamin && lowerText!==papir && lowerText!==nogisi){
+    alert('Невірне значення');}
 
 else{
     alert('Програш');}
+
+
 
 
 
